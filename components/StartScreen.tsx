@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import Button from './Button';
 
@@ -13,7 +14,7 @@ const StartScreen: React.FC<StartScreenProps> = ({ onStart }) => {
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cyan-500 to-blue-600 p-4">
             <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full text-center animate-slide-up">
                 <div className="mb-8">
-                    <h1 className="text-3xl font-extrabold text-slate-800 mb-2">BỘ ĐỀ ÔN IOE K6 SỐ: 04</h1>
+                    <h1 className="text-3xl font-extrabold text-slate-800 mb-2">IOE K9 SỐ: 02</h1>
                     <p className="text-slate-500">Luyện thi tiếng Anh IOE cùng AI Master</p>
                 </div>
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -29,3 +30,4 @@ const StartScreen: React.FC<StartScreenProps> = ({ onStart }) => {
 };
 
 export default StartScreen;
+    
